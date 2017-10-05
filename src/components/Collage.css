@@ -1,0 +1,183 @@
+.collage{
+    margin-top:2em;
+}
+
+
+.collage > .container{
+    position: relative;
+}
+
+.grid {
+    position: relative;
+}
+
+.intro {
+    padding-bottom: 1em;
+    color:#000;
+}
+
+@media screen and (max-width: 768px) {
+    .intro{
+        padding-right: 0em;
+        max-width: 100%;
+    }
+    
+    .intro h1{
+        font-size: 20px;
+    }
+}
+
+
+.grid .col-1{
+    max-width: 50%;
+}
+
+.grid .col-2{
+    max-width: 50%;
+}
+
+@media screen and (max-width: 768px){
+    .grid .col-1, .grid .col-2{
+        float: center;
+        min-width: 100%;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+}
+
+
+.grid .col-1.margintop{
+    margin-top: 29%;
+}
+
+.grid .col-2.margintop{
+    margin-top: 29%;
+}
+
+
+.grid .col-1 img{
+    max-width: 100%;
+}
+
+.grid .col-2 img{
+    max-width: 100%;
+}
+
+.grid .col-1 .item{
+    margin-bottom: .5em;
+    float: left;
+    width: 100%;
+    position: relative;
+    background: #f2f2f2;
+}
+
+.grid .col-2 .item{
+    margin-bottom: .5em;
+    float: left;
+    width: 100%;
+    position: relative;
+    background: #f2f2f2;
+}
+
+.grid .col-1 .item a{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.grid .col-2 .item a{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.grid .col-1 .item .item-text-wrap,
+.grid .col-2 .item .item-text-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+    color: #f2f2f2;
+}
+
+.grid .col-1 .item a .item-text,
+.grid .col-2 .item a .item-text{
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    vertical-align: middle;
+    margin-top: -18px;
+}
+
+.grid .col-1 .item a.image-popup h2{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    transition: 0.9s;
+}
+
+.grid .col-2 .item a.image-popup h2{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    transition: 0.9s;
+}
+
+.grid .col-1{
+    float: left;
+    padding-right: .25em;
+}
+
+.grid .col-2{
+    float: right;
+    padding-left: .25em;
+}
+
+.grid .col-1 .item a img{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+
+.grid .col-2 .item a img{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+
+.grid .col-1 .item a:hover img{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); 
+}
+
+.grid .col-2 .item a:hover img{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); 
+}
+
+

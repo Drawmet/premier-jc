@@ -1,0 +1,282 @@
+.poll .container{
+    background: linear-gradient(rgba(100,100,104,0.7),rgba(100,100,104,0.7)),url(../assets/back-1.jpg) repeat center top;
+    color: rgb(255,255,255);
+    min-width: 100%;
+    height: 100%;
+}
+
+
+.poll .header h3{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.poll .header p{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.poll .header h3{
+    font-size: 22px;
+}
+
+
+.poll-timeline{
+    margin:0 15%;
+    height: 100%;
+    overflow: hidden;
+    padding: 10px 0 40px 60px
+}
+
+.poll-timeline ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transition: all 0.5s linear;
+    top:0
+}
+
+.poll-timeline ul:last-of-type{top:0px}
+
+.poll-timeline ul:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border:1px dashed #fff;
+    position: absolute;
+    top:0;
+    left:30px
+}
+
+.poll-timeline ul li{
+    margin: 5px 60px 10px;
+    position: relative;
+    padding: 10px 20px;
+    background:rgba(255, 255, 255, 0.3);
+    color:#fff;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 60%
+}
+
+
+.poll-timeline ul li > span{
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border:1px solid #fff;
+    position: absolute;
+    top:0;
+    left:-30px
+}
+
+.poll-timeline ul li > span:before{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background:#fff;
+    border:2px solid #fff;
+    position: absolute;
+    left:-8.25px
+}
+
+.poll-timeline ul li > span:before{top:-10px}
+.poll-timeline ul li > span:after{top:95%}
+
+.poll-timeline .title{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px
+}
+
+.poll-timeline .info:first-letter{
+    text-transform: capitalize;
+    line-height: 1.7}
+
+.poll-timeline .name{
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+.poll-timeline .number span{
+    position: absolute;
+    left: -60px;
+    color:#fff;
+    font-size:100%;
+    font-weight: bold;
+}
+.poll-timeline .number span:first-child{top:-30px}
+
+.poll-timeline .number span:last-child{top:-16px}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+
+.item_2{
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.item_3{
+    animation-duration: 3s;
+    animation-fill-mode: both;
+
+} 
+.item_4{
+    animation-duration: 4s;
+    animation-fill-mode: both;
+} 
+
+.item_5{
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}
+
+.item_6{
+    animation-duration: 6s;
+    animation-fill-mode: both;
+} 
+
+.item_7{
+    animation-duration: 7s;
+    animation-fill-mode: both;
+} 
+
+@media (max-width: 700px){
+    
+    .poll-timeline-block{
+        background: linear-gradient(rgba(100,100,104,0.7),rgba(100,100,104,0.7)),url(../assets/back-1.jpg) repeat center top;
+        color: rgb(255,255,255);
+    }
+
+    .header > p{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 1rem;
+        width:100%;
+        text-align: center;
+    }
+
+    .poll-timeline{
+        margin:0 15%;
+        height: 1000px;
+        overflow: hidden;
+        padding: 5px 0 10px 10px
+    }
+    
+    .poll-timeline ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        transition: all 0.5s linear;
+        top:0
+    }
+    
+    .poll-timeline ul:last-of-type{top:0px}
+    
+    .poll-timeline ul:before{
+        content: "";
+        display: block;
+        width: 0;
+        height: 100%;
+        border:1px dashed #fff;
+        position: absolute;
+        top:0;
+        left:30px
+    }
+    
+    .poll-timeline ul li{
+        margin: 5px 60px 10px;
+        position: relative;
+        padding: 5px 5px;
+        background:rgba(255, 255, 255, 0.3);
+        color:#fff;
+        border-radius: 10px;
+        line-height: 20px;
+        width: 70%
+    }
+    
+    
+    .poll-timeline ul li > span{
+        content: "";
+        display: block;
+        width: 0;
+        height: 100%;
+        border:1px solid #fff;
+        position: absolute;
+        top:0;
+        left:-30px
+    }
+    
+    .poll-timeline ul li > span:before{
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background:#fff;
+        border:2px solid #fff;
+        position: absolute;
+        left:-8.25px
+    }
+    
+    .poll-timeline ul li > span:before{top:-10px}
+    .poll-timeline ul li > span:after{top:95%}
+    
+    .poll-timeline .title{
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    
+    .poll-timeline .info:first-letter{text-transform: capitalize;line-height: 1.7}
+    
+    .poll-timeline .name{
+        margin-top: 10px;
+        text-transform: capitalize;
+        font-style: italic;
+        text-align: right;
+        margin-right: 20px
+    }
+    
+    
+    .poll-timeline .number span{
+        position: absolute;
+        left: -60px;
+        color:#fff;
+        font-size:100%;
+        font-weight: bold;
+    }
+    .poll-timeline .number span:first-child{top:-16px}
+    
+    .poll-timeline .number span:last-child{top:-12px}
+}

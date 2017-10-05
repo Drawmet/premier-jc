@@ -1,0 +1,49 @@
+.games h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.games .container .row {
+    float: left;
+}
+
+.games .container .col{
+    float: left;
+    text-align: left;
+}
+
+.games .container .banner{
+    width:100%;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.games .container .fade{
+    height:0;
+}
+
+.games .container .fade.show{
+    height:100%;
+    transition: 700ms;
+}
+
+.games .container .fadeblock img{
+    height: 200px;
+    max-width: 250px;
+}
+
+.games .container .fadeblock{
+    float: initial;
+}
+
+.games .container .fadeblock button{
+    margin: 30px 10px 10px 30px;
+}
+
+/*.games .container .media-body{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top:0;
+    width:60%;
+}*/
