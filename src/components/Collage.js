@@ -9,6 +9,7 @@ import collage6 from '../assets/collage-6.jpg';
 
 export default class Collage extends Component{
     render(){
+        const data = this.props.data;
        return(
         <section className="collage">
             <div className="container">
@@ -16,14 +17,14 @@ export default class Collage extends Component{
                 <div className="grid">
                     <div className="col-1">
                         <div className="intro">
-                            <h1 className="p1">Выбирай где играть и с кем играть</h1>
+                            <h1 className="p1">{data.header}</h1>
                         </div>
                         <div className="item">
                             <a href="single.html" className="transition animate-box fadeIn animated">
                                 <img src={collage6} alt=""  />
                             <div className="item-text-wrap">
                                 <div className="item-text">
-                                    <h2>Место для игры</h2>
+                                    <h2>{data.item1}</h2>
                                 </div>
                             </div>                                
                             </a>
@@ -33,7 +34,7 @@ export default class Collage extends Component{
                                 <img src={collage4} alt=""  />
                                 <div className="item-text-wrap">
                                     <div className="item-text">
-                                        <h2>Автоматы на свой вкус</h2>
+                                        <h2>{data.item2}</h2>
                                     </div>
                                 </div>
                             </a>
@@ -43,7 +44,7 @@ export default class Collage extends Component{
                                 <img src={collage3} alt=""  />
                                 <div className="item-text-wrap">
                                     <div className="item-text">
-                                        <h2>Столы</h2>
+                                        <h2>{data.item3}</h2>
                                     </div>
                                 </div>
                             </a>
@@ -55,7 +56,7 @@ export default class Collage extends Component{
                                 <img src={collage2} alt=""  />
                                 <div className="item-text-wrap">
                                     <div className="item-text">
-                                        <h2>Дилеров</h2>
+                                        <h2>{data.item4}</h2>
                                     </div>
                                 </div>
                             </a>
@@ -65,7 +66,7 @@ export default class Collage extends Component{
                                 <img src={collage5} alt=""  />
                                 <div className="item-text-wrap">
                                     <div className="item-text">
-                                        <h2>Людей, что играть будут с тобой</h2>
+                                        <h2>{data.item5}</h2>
                                     </div>
                                 </div>
                             </a>
@@ -75,7 +76,7 @@ export default class Collage extends Component{
                                 <img src={collage1} alt=""  />
                                 <div className="item-text-wrap">
                                     <div className="item-text">
-                                        <h2>Вид</h2>
+                                        <h2>{data.item6}</h2>
                                     </div>
                                 </div>
                             </a>

@@ -25,6 +25,7 @@
 .games .container .fade.show{
     height:100%;
     transition: 700ms;
+    margin-bottom: 30px;
 }
 
 .games .container .fadeblock img{
@@ -38,6 +39,25 @@
 
 .games .container .fadeblock button{
     margin: 30px 10px 10px 30px;
+}
+
+.games .container .fadeblock img{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+
+.games .container .fadeblock img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2); 
 }
 
 /*.games .container .media-body{

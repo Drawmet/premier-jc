@@ -13,7 +13,6 @@ import banner1 from '../assets/banner1.jpg';
 import banner2 from '../assets/banner2.jpg';
 import banner3 from '../assets/banner3.jpg';
 
-
 export default class CarouselBanner extends Component{
     constructor(props){
         super(props);
@@ -21,28 +20,7 @@ export default class CarouselBanner extends Component{
         this.state={
             dataTarget: this.props.activeData,
             activeIndex: 0,
-            slides: [{
-                src: banner1,
-                title: 'Лучшие джанкет туры для вас.',
-                altText: this.title,
-                caption: 'Туры в различные страны Беларуси, Молдовы, России, Болгарии, Армении.',
-                buttonCaption: 'Узнай сейчас',
-                float: 'text-left',
-            },{
-                src: banner2,
-                title: 'Привет Медвед.',
-                altText: this.title,
-                caption: 'Больше золота.',
-                buttonCaption: 'Попробуй тут',
-                float: 'text-center',
-            },{
-                src: banner3,
-                title: 'Остановись тут.',
-                altText: this.title,
-                caption: 'Среди множества разного найти сложно.',
-                buttonCaption: 'Стань одним из первых',
-                float: 'text-right',
-            }]
+            slides:[{src:banner1},{src:banner2},{src:banner3}],
         }
     }
 
@@ -80,8 +58,18 @@ export default class CarouselBanner extends Component{
     
     render(){
         const {activeIndex} = this.state;
-
-        const slides = this.state.slides.map((item) => {
+        const data = this.props.data;
+        const items = [{
+            src:banner1,
+            ...data.slides[0],
+        },{
+            src:banner2,
+            ...data.slides[1],
+        },{
+            src:banner3,
+            ...data.slides[2],
+        }]
+        const slides = items.map((item) => {
             return (
                 <CarouselItem
                     onExiting={this.onExiting}
