@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import FadeBlock from './FadeGame';
-import {Col, Row, Container} from 'reactstrap';
+import {Row, Container} from 'reactstrap';
 import './Games.css';   
 import banner from '../assets/games-banner.jpg';
 import rouletteImg from '../assets/american-roulette.jpg';
@@ -38,9 +38,9 @@ export default class Games extends Component{
                 src: bakaraImg,
                 ...data.items[6],
             }]
-        const games = items.map((item) => {
+        const games = items.map((item,index) => {
             return (
-                <Row>
+                <Row key={index + 'fade-row'}>
                     <FadeBlock img={item.src} header={item.header} body={item.body}></FadeBlock>
                 </Row>
             )

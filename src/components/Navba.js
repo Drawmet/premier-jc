@@ -34,9 +34,9 @@ export default class Navba extends Component {
             <Navbar color={this.state.color} dark={this.state.dark} light={this.state.light} expand="md">
               <NavbarBrand href="/">PremierJC</NavbarBrand>
                 <NavbarToggler onClick={this.toggleCollapse} />
-                <Collapse isOpen={this.state.isOpen} navbar>
-                    <Nav className="ml-auto" navbar>
-                        <NavItem active>
+                <Collapse isOpen={this.state.isOpen} navbar={true}>
+                    <Nav className="ml-auto" navbar={true}>
+                        <NavItem active={true}>
                             <NavLink href="/">{data.home}</NavLink>
                         </NavItem>
                         <NavItem>
@@ -46,7 +46,7 @@ export default class Navba extends Component {
                             <NavLink href="/">{data.contacts}</NavLink>
                         </NavItem>
                         <NavDropdown isOpen={this.state.dropDownOpen} toggle={this.toggleDropdown}>
-                          <DropdownToggle nav caret>
+                          <DropdownToggle nav={true} caret={true}>
                             {data.lang}
                           </DropdownToggle>
                           <DropdownMenu>

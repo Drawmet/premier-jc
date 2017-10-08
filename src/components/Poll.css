@@ -6,6 +6,9 @@
     display: inline-block;
 }
 
+.poll .opacity-header{
+    opacity: 0;
+}
 
 .poll .header h3{
     padding-top: 3rem;
@@ -120,8 +123,12 @@
 
 .poll-timeline .number span:last-child{top:-16px}
 
+.poll-timeline .item{
+    opacity: 0;
+}
+
 .animated {
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-fill-mode: both;
   }
 

@@ -15,7 +15,6 @@ class App extends Component {
     
     const content = this.props.content;
     const switchLanguage = this.props.switchLanguage;
-    console.log(content);
 
     if(content){
       return (
