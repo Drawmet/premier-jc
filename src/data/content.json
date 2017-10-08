@@ -97,6 +97,35 @@
                     "header":"Baccarat",
                     "body": "A card game in which players tend to score as many points as possible using two or three cards. Previously, baccarat was considered a game of aristocrats, and now in this game are often high stakes. In the original baccarat, the players played with each other, and each of them made a decision whether to take a third card or not. Currently, the casino basically plays a variant of the game known as mini-baccarat or punto-banko, in which the player plays against the institution (dealer), and the decision to take the card is strictly regulated."
                 }]
+            },
+            "faq":{
+                "header": "Frequently Asked Questions?",
+                "p": "Simple answers to the most common questions",
+                "items": [{
+                    "question": "What is a junket tour?",
+                    "answer": "The janket tour is a splendid fusion of classical tourism with a gaming one.Janket is created for unlimited travels around the world, visiting the best casinos and entertainment centers.And the most attractive attractive offer for tourists is the fact that all your expenses are incurred You will be met at the airport, comfortably delivered to the hotel, the guide will eliminate the problems associated with the language barrier, provide entertainment and sightseeing programs. "
+                },{
+                    "question": "Why contact the Agency \"Premier-JC\"?",
+                    "answer": "We are your FREE information service. We are your friend, adviser and experienced friend in the organization, perhaps the best journey in your life. We know all the nuances of casino and tourism. We accompany you throughout the trip."
+                },{
+                    "question": "Who should I contact with questions about the trip?",
+                    "answer": "Leave the questionnaire and the consultant will contact you."
+                },{
+                    "question": "What is a deposit?",
+                    "answer": "You are in the casino, according to your package, you change the amount at the box office for the game chips. The main condition of the tour is to play the required number of hours. This is usually 12 hours for 3 days."
+                },{
+                    "question": "Can I raise or lower the rates?",
+                    "answer": "Increase - YES, lower - NO. Games are conducted according to the standard casino rules, as for all other visitors. The casino has the same rules for solving issues and making decisions, as always and for everyone. gambling establishments of the highest class."
+                },{
+                    "question": "How can you play 12 hours?",
+                    "answer": "Though on the first day, at least the last, at your discretion and by arrangement."
+                },{
+                    "question": "If you lose the deposit ahead of time?",
+                    "answer": "The conditions of the tour are considered fulfilled, all costs incurred by the institution, you have all been paid for the period of the contract. You can also continue the game at any rate, and try your luck again."
+                },{
+                    "question": "If the terms of the junket tour are not met?",
+                    "answer": "You pay for your trip yourself, the prices in this case will be the most loyal, and you will in any case be satisfied."
+                }]
             }
         }  
     },
@@ -197,6 +226,42 @@
                 {
                     "header":"Баккара",
                     "body": "Карточная игра, в которой игроки стремятся набрать как можно больше очков, используя две или три карты. Ранее баккара считалась игрой аристократов, да и сейчас в этой игре нередки высокие ставки. В оригинальной баккаре игроки играли между собой, и каждый из них принимал решение, брать третью карту или нет. В настоящее время в казино в основном играется вариант игры известный как мини-баккара или пунто-банко, в которой игрок играет против заведения (дилера), и принятие решения о взятии карты строго регламентировано."
+                }]
+            },
+            "faq":{
+                "header":"Часто задаваемые вопросы?",
+                "p":"Простые ответы на наиболее распространенные вопросы",
+                "items":[{
+                    "question":"Что такое джанкет-тур?",
+                    "answer":"Джанкет тур — это великолепный сплав классического туризма с игровым. Джанкет создан для безграничных путешествий по всему миру, посещение лучших казино и развлекательных центров. А самым основным привлекательным предложением для туристов является тот факт, что все Ваши расходы берет на себя принимающая сторона. Вас встретят в аэропорту, комфортабельно доставят до отеля, гид устранит проблемы связанные с языковым барьером, предусмотрены развлекательная и экскурсионная программы."
+                },
+                {
+                    "question":"Зачем обращаться в Джанкет Агентство «Premier-JC»?",
+                    "answer":"Мы — Ваша БЕСПЛАТНАЯ информационная служба. Мы Ваш друг, советчик и опытный товарищ в организации, возможно, лучшего путешествия в вашей жизни. Знаем все нюансы казино и туризма. Подскажем и проконсультируем, окажем помощь в выборе тура. Сопровождаем Вас в течение всей поездки."
+                },
+                {
+                    "question":"К кому обратиться с вопросами по поездке?",
+                    "answer":"Оставте анкету и консультант свяжется с вами."
+                },
+                {
+                    "question":"Что такое депозит?",
+                    "answer":"Вы в казино. Согласно Вашему пакету, вы меняете в кассе указанную сумму на игровые фишки. Главное условие тура- отыграть положенное количество часов. Обычно это 12 часов за 3 дня. Депозит оформляется на месте."
+                },
+                {
+                    "question":"Можно ли повышать или понижать ставки?",
+                    "answer":"Повышать — ДА, понижать — НЕТ. Игры ведутся по стандартным правилам казино, как для всех других посетителей. В казино действуют такие же правила по решению вопросов и принятию решений, как и всегда и для всех. Действуют стандарты принятые в игорных заведениях высшего класса."
+                },
+                {
+                    "question":"Как можно отыграть 12 часов?",
+                    "answer":"Хоть в первый день, хоть в последний, на Ваше усмотрение и по договоренности."
+                },
+                {
+                    "question":"Если проиграли депозит раньше времени?",
+                    "answer":"Условия тура считаются выполненными, все расходы заведение берет на себя, у Вас все оплачено на период договора.Также вы можете продолжить игру по любым ставкам, и испытать удачу еще."
+                },
+                {
+                    "question":"Если условия джанкет-тура не выполнены?",
+                    "answer":"Вы оплачиваете ваше путешествие сами. Цены в данном случае будут самыми лояльными, и Вы в любом случае останетесь довольны."
                 }]
             }
         }

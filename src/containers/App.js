@@ -5,6 +5,7 @@ import CarouselBanner from '../components/CarouselBanner';
 import Collage from '../components/Collage';
 import Poll from '../components/Poll';
 import Games from '../components/Games';
+import Faq from '../components/Faq';
 import {connect} from 'react-redux';
 import actions from '../actions/actions';
 
@@ -24,6 +25,7 @@ class App extends Component {
           <Collage data={content.page.collage}/>
           <Poll data={content.page.poll}/>
           <Games data={content.page.games}/>
+          <Faq data={content.page.faq}/>
         </div>
       );
     } else { return; }

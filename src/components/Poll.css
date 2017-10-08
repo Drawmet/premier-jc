@@ -3,6 +3,7 @@
     color: rgb(255,255,255);
     min-width: 100%;
     height: 100%;
+    display: inline-block;
 }
 
 
@@ -12,8 +13,6 @@
 }
 
 .poll .header p{
-    padding-left: 10rem;
-    padding-right: 10rem;
     padding-bottom: 1rem;
     width: 100%;
     text-align: center;
@@ -172,9 +171,11 @@
 
 @media (max-width: 700px){
     
-    .poll-timeline-block{
+    .poll .container{
         background: linear-gradient(rgba(100,100,104,0.7),rgba(100,100,104,0.7)),url(../assets/back-1.jpg) repeat center top;
         color: rgb(255,255,255);
+        display: inline-block;
+        height: 100%;
     }
 
     .header > p{
@@ -187,7 +188,7 @@
 
     .poll-timeline{
         margin:0 15%;
-        height: 1000px;
+        height: 100%;
         overflow: hidden;
         padding: 5px 0 10px 10px
     }

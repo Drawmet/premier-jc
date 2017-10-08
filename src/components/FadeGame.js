@@ -5,12 +5,9 @@ export default class MyPopover extends Component{
     constructor(props) {
         super(props);
         this.state = {
-          fadeIn: false,
+          fadeIn: false,         
+
         };
-      }
-
-      onOpenBlock = () =>{
-
       }
     
       toggle = () => {
@@ -26,7 +23,7 @@ export default class MyPopover extends Component{
                 <img src={this.props.img} alt=""/>
                 <Button onClick={this.toggle}>{this.props.header}</Button>
               </Col>
-              <Col xs="auto" className="fadeblock text-left">
+              <Col xs="auto" className="fadeblock-col text-left">
                 <Fade in={this.state.fadeIn} tag="h5" className="mt-3">
                     <Media>
                         <Media body>
