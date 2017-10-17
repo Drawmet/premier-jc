@@ -1,0 +1,19 @@
+.navbar-nav ul li{
+	display:inline-block;
+	margin: .5em 1em 0;
+	}
+.navbar-nav ul li a{
+	color:#97999B;
+	font-size:17px;
+	transition:.5s all;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	}
+.navbar-nav ul li a:hover{
+	color: #5DC9C9;
+	text-decoration:none;
+	padding: 1.4em 0 0;
+	border-top: 3px solid #5DC9C9;
+	}

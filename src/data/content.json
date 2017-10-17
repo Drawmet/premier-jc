@@ -37,34 +37,34 @@
             "poll":{
                 "header": "How to register for a junket tour",
                 "afterheader":"All the necessary information, we will provide after the questionnaire",
-                "item1":{
+                "items":[{
                     "title": "Fill in the form",
                     "info": "Enter all the data for the link, after which you will be told about all the offers"
                 },
-                "item2":{
+                {
                     "title": "Make your choice",
                     "info": "The consultant will help you make choices about your preferences"
                 },
-                "item3":{
+                {
                     "title": "Draw up a contract",
                     "info": "The contract includes the obligations of the casino and yours, regarding the games in this casino"
                 },
-                "item4":{
+                {
                     "title": "Plan your trip day",
                     "info": "Book the departure and arrival route, and pre-pay tickets"
                 },
-                "item5":{
+                {
                     "title": "Take a trip",
                     "info": "Flight to the city of the location of the casino, after which you meet a representative of the casino"
                 },
-                "item6":{
+                {
                     "title": "Beginning of the game",
                     "info": "Purchase of chips in the cash register of the casino for the sum specified in the contract, you play according to the stipulated terms in the contract"
                 },
-                "item7":{
+                {
                     "title": "Return of compensation",
                     "info": "After fulfilling the terms of the contract for the game, the casino compensates for the costs of the flight and package offers"
-                }
+                }]
             },
             "games": {
                 "header":"The most popular games we provide?",
@@ -167,34 +167,34 @@
             "poll":{
                 "header": "Как проходит регистрация на джанкет тур",
                 "afterheader":"Всю информацию необходимую информацию, мы предоставим после анкетирования",
-                "item1":{
+                "items":[{
                     "title": "Заполните анкету",
                     "info": "Введите все данные для связи, после чего вам расскажут о всех предложения"
                 },
-                "item2":{
+                {
                     "title": "Сделайте свой выбор",
                     "info": "Консультант поможет сделать вам выбор относительно ваших предпочтений"
                 },
-                "item3":{
+                {
                     "title": "Составте договор",
                     "info": "Договор включает обязательства казино и ваши, относительно игры в данном казино"
                 },
-                "item4":{
+                {
                     "title": "Планируйте день поездки",
                     "info": "Бронируйте маршрут вылета и прилета, а также совершаете предоплату билетов"
                 },
-                "item5":{
+                {
                     "title": "Совершаете поздку",
                     "info": "Перелет в город местонахождения казино, после чего вас встречает представитель казино"
                 },
-                "item6":{
+                {
                     "title": "Начало игры",
                     "info": "Покупка в кассе казино фишек на оговоренную в договоре суму, играете согласно оговоренным условиям в договоре"
                 },
-                "item7":{
+                {
                     "title": "Возврат компенсации",
                     "info": "После выполнения условия договора по игре, казино компенсирует затраты на перелет и пакетные предложения"
-                }
+                }]
             },
             "games": {
                 "header":"Самые популярные игры, которые мы предоставляем?",

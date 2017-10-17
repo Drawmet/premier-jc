@@ -19,6 +19,17 @@ export default class Poll extends Component{
 
     render(){
         const data = this.props.data;
+        const items = data.items.map((item, index)=>{
+            return(
+                <li className={this.state.styleAnimated} key={index} style={this.state.animated}>
+                    <div className="title">{item.title}</div>
+                    <div className="info">{item.info}</div>
+                    <div className="number">
+                        <span>{index+1}.</span>
+                    </div>
+                </li>
+            )
+        })
         return(
              <section className="poll" onMouseOver={this.onFocus}>
                 <div className="container">
@@ -28,55 +39,7 @@ export default class Poll extends Component{
                     </div>
                     <div className="poll-timeline">
                         <ul>
-                            <li className={this.state.styleAnimated} style={this.state.animated}>
-                                <div className="title">{data.item1.title}</div>
-                                <div className="info">{data.item1.info}</div>
-                                <div className="number">
-                                    <span>1.</span>
-                                </div>
-                            </li>
-                            <li className={this.state.styleAnimated}>
-                                <div className="title">{data.item2.title}</div>
-                                <div className="info">{data.item2.info}</div>
-                                <div className="number">
-                                    <span>2.</span>
-                                </div>
-                            </li>
-                            <li className={this.state.styleAnimated}>
-                                <div className="title">{data.item3.title}</div>
-                                <div className="info">{data.item3.info}</div>
-                                <div className="number">
-                                    <span>3.</span>
-                                </div>
-                            </li>
-                            <li className={this.state.styleAnimated}>
-                                <div className="title">{data.item4.title}</div>
-                                <div className="info">{data.item4.info}</div>
-                                <div className="number">
-                                    <span>4.</span>
-                                </div>
-                            </li>
-                            <li className={this.state.styleAnimated}>
-                                <div className="title">{data.item5.title}</div>
-                                <div className="info">{data.item5.info}</div>
-                                <div className="number">
-                                    <span>5.</span>
-                                </div>
-                            </li>
-                            <li className={this.state.styleAnimated}>
-                                <div className="title">{data.item6.title}</div>
-                                <div className="info">{data.item6.info}</div>
-                                <div className="number">
-                                    <span>6.</span>
-                                </div>
-                            </li>
-                            <li className={this.state.styleAnimated}>
-                                <div className="title">{data.item7.title}</div>
-                                <div className="info">{data.item7.info}</div>
-                                <div className="number">
-                                    <span>7.</span>
-                                </div>
-                            </li>
+                            {items}
                         </ul>
                     </div>
                 </div>

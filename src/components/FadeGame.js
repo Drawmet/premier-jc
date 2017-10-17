@@ -19,13 +19,13 @@ export default class MyPopover extends Component{
       render(){
           return(
             <div className="fadeblock">
-              <Col xs="4">
-                <img src={this.props.img} alt=""/>
+              <Col xs="auto">
                 <Button onClick={this.toggle}>{this.props.header}</Button>
               </Col>
               <Col xs="auto" className="fadeblock-col text-left">
                 <Fade in={this.state.fadeIn} tag="h5" className="mt-3">
                     <Media>
+                      <img src={this.props.img} alt=""/>
                         <Media body>
                           <Media heading>
                             {this.props.header}

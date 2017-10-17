@@ -1,8 +1,7 @@
 import React,{Component} from 'react';
 import FadeBlock from './FadeGame';
 import {Row, Container} from 'reactstrap';
-import './Games.css';   
-import banner from '../assets/games-banner.jpg';
+import './Games.css';
 import rouletteImg from '../assets/american-roulette.jpg';
 import jackImg from '../assets/blackjack.jpg';
 import crapsImg from '../assets/craps.jpg';
@@ -53,7 +52,6 @@ export default class Games extends Component{
                         <h2>{data.header}</h2>
                         <p className="h6">{data.p}</p>
                     </div>
-                    <img className="banner" src={banner} alt=""/>
                     <div className="gamesblock">
                         {games}
                     </div>
