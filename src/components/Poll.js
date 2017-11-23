@@ -10,7 +10,7 @@ export default class Poll extends Component{
         }
     }
     
-    onFocus = () =>{
+    componentWillMount = () =>{
         this.setState({
             styleAnimated: 'animated fadeIn',
             styleHeaderAnimated: 'animated fadeIn header'
@@ -31,7 +31,7 @@ export default class Poll extends Component{
             )
         })
         return(
-             <section className="poll" onMouseOver={this.onFocus}>
+             <section className="poll">
                 <div className="container">
                     <div className={this.state.styleHeaderAnimated} >
                         <h3>{data.header}</h3>

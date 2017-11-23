@@ -2,59 +2,51 @@ import React,{Component} from 'react';
 import FadeBlock from './FadeGame';
 import {Row, Container} from 'reactstrap';
 import './Games.css';
-import rouletteImg from '../assets/american-roulette.jpg';
-import jackImg from '../assets/blackjack.jpg';
-import crapsImg from '../assets/craps.jpg';
-import drawImg from '../assets/draw-poker.jpg';
-import studImg from '../assets/7card.jpg';
-import holdemImg from '../assets/holdem.jpg';
-import bakaraImg from '../assets/bakara.jpg';
+import '../assets/american-roulette.jpg';
+import '../assets/blackjack.jpg';
+import '../assets/craps.jpg';
+import '../assets/draw-poker.jpg';
+import '../assets/7card.jpg';
+import '../assets/holdem.jpg';
+import '../assets/bakara.jpg';
 
 export default class Games extends Component{
     
     render(){
         const data = this.props.data;
-        const items = [
-            {
-                src: rouletteImg,
-                ...data.items[0],
-            },{
-                src: jackImg,
-                ...data.items[1],
-            },{
-                src: crapsImg,
-                ...data.items[2],
-            },{
-                src: drawImg,
-                ...data.items[3],
-            },{
-                src: studImg,
-                ...data.items[4],
-            },{
-                src: holdemImg,
-                ...data.items[5],
-            },{
-                src: bakaraImg,
-                ...data.items[6],
-            }]
-        const games = items.map((item,index) => {
-            return (
-                <Row key={index + 'fade-row'}>
-                    <FadeBlock img={item.src} header={item.header} body={item.body}></FadeBlock>
-                </Row>
-            )
+        const games = data.items.map((item,index, array) => {
+            if(index%2===1)
+                    return  (
+                        <Row>
+                            <div className="col-md-6">
+                                <FadeBlock img={item.src} header={item.header} body={item.body}></FadeBlock>
+                            </div>
+                            <div className="col-md-6">
+                                <FadeBlock img={array[index-1].src} header={array[index-1].header} body={array[index-1].body}></FadeBlock>
+                            </div>
+                        </Row>
+                    )
+            else if (index === array.length-1)
+                    return  (
+                        <Row>
+                            <div className="col-md-12">
+                                <FadeBlock img={item.src} header={item.header} body={item.body}></FadeBlock>
+                            </div>
+                        </Row>
+                    )
+                
         })
 
         return(
             <section className="games">
                 <Container>
-                    <div className="header">
-                        <h2>{data.header}</h2>
-                        <p className="h6">{data.p}</p>
-                    </div>
-                    <div className="gamesblock">
-                        {games}
-                    </div>
+                        <div className="header">
+                            <h2>{data.header}</h2>
+                            <p className="h6">{data.p}</p>
+                        </div>
+                        <div className="gamesblock">
+                            {games}
+                        </div>
                 </Container>
             </section>
         )

@@ -5,6 +5,7 @@
 
 .games .container{
     min-height: 100%;
+    display: inline-block;
 }
 
 .games .container .row {
