@@ -8,9 +8,9 @@ import {
     Row
 } from 'reactstrap';
 import './CarouselBanner.css';
-import banner1 from '../assets/banner1.jpg';
-import banner2 from '../assets/banner2.jpg';
-import banner3 from '../assets/banner3.jpg';
+import '../assets/banner1.jpg';
+import '../assets/banner2.jpg';
+import '../assets/banner3.jpg';
 
 export default class CarouselBanner extends Component{
     constructor(props){
@@ -19,7 +19,7 @@ export default class CarouselBanner extends Component{
         this.state={
             dataTarget: this.props.activeData,
             activeIndex: 0,
-            slides:[{src:banner1},{src:banner2},{src:banner3}],
+            slides: this.props.data.slides,
         }
     }
 
@@ -58,17 +58,7 @@ export default class CarouselBanner extends Component{
     render(){
         const {activeIndex} = this.state;
         const data = this.props.data;
-        const items = [{
-            src:banner1,
-            ...data.slides[0],
-        },{
-            src:banner2,
-            ...data.slides[1],
-        },{
-            src:banner3,
-            ...data.slides[2],
-        }]
-        const slides = items.map((item) => {
+        const slides = data.slides.map((item) => {
             return (
                 <CarouselItem
                     onExiting={this.onExiting}

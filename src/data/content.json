@@ -12,17 +12,20 @@
                 "slides": [{
                     "title": "The best junket tours for you.",
                     "caption": "Tours to various countries of Belarus, Moldova, Russia, Bulgaria, Armenia.",
-                    "buttonCaption": "Find out now"
+                    "buttonCaption": "Find out now",
+                    "src": "/static/media/banner1.e74b3c5e.jpg"
                 },
                 {
                     "title": "Use the savings wisely.",
                     "caption": "Why spend money on flights and hotels, if it's better to spend on the relaxation.",
-                    "buttonCaption": "Try it"
+                    "buttonCaption": "Try it",
+                    "src": "/static/media/banner2.4c6df333.jpg"
                 },
                 {
                     "title": "Spend time right.",
                     "caption": "Choose where to rest, and spend time with advantage.",
-                    "buttonCaption": "Choose here"
+                    "buttonCaption": "Choose here",
+                    "src": "/static/media/banner3.56500557.jpg"
                 }]
             },
             "collage":{
@@ -96,31 +99,38 @@
                 "p": "You can always find out about the rest of the games from a consultant.",
                 "items":[{
                     "header":"American Roulette",
-                    "body": "The player can place bets on the limits of each table. All the losing bets the dealer removes from the field and pays the winnings. When wins \"zero\" (0), all bets lose. At the same time, rates related to \"zero\" are paid in the same way. Oral rates are accepted until the words of the dealer: \"Latest bets\". An oral bet is considered accepted if the dealer has duplicated your bet aloud. For correctness of the made bets the player is responsible independently."
+                    "body": "The player can place bets on the limits of each table. All the losing bets the dealer removes from the field and pays the winnings. When wins \"zero\" (0), all bets lose. At the same time, rates related to \"zero\" are paid in the same way. Oral rates are accepted until the words of the dealer: \"Latest bets\". An oral bet is considered accepted if the dealer has duplicated your bet aloud. For correctness of the made bets the player is responsible independently.",
+                    "src":"/static/media/american-roulette.c62f3823.jpg"
                 },
                 {
                     "header":"Black Jack",
-                    "body": "Known card game 'twenty-one' or 'point'. The purpose of the game in blackjack is to score twenty-one points or the number of points as close as possible to this amount, but not more than it. If a player scores more than twenty-one points, he immediately loses. In other cases, the value of his cards is compared with the value of dealer cards and the winner is determined."
+                    "body": "Known card game 'twenty-one' or 'point'. The purpose of the game in blackjack is to score twenty-one points or the number of points as close as possible to this amount, but not more than it. If a player scores more than twenty-one points, he immediately loses. In other cases, the value of his cards is compared with the value of dealer cards and the winner is determined.",
+                    "src":"/static/media/blackjack.7c9deeb7.jpg"
                 },
                 {
                     "header":"Craps",
-                    "body": "In the casino, the game is played with two bones, each of which has six numbered faces. Having thrown out two bones at the same time, you can get a minimum amount of two points - if on both bones it turns out to be one. The maximum number of discarded points is twelve (six and six). Throwing two bones at the same time, you can count on the appearance of thirty-six combinations of points on them - from two to twelve."
+                    "body": "In the casino, the game is played with two bones, each of which has six numbered faces. Having thrown out two bones at the same time, you can get a minimum amount of two points - if on both bones it turns out to be one. The maximum number of discarded points is twelve (six and six). Throwing two bones at the same time, you can count on the appearance of thirty-six combinations of points on them - from two to twelve.",
+                    "src":"/static/media/craps.744bba42.jpg"
                 },
                 {
                     "header":"Draw Poker",
-                    "body": "The dealer offers the player to \"cut off\" the deck with a special plastic card. The player places his initial bet on the bonus position, after which the dealer alternately hands out each player and himself 5 cards face down. After the player has looked at his cards, he is given the opportunity to make the first exchange of one to five cards. To do this, he makes a bet equal to the original, in the position \"ANTE\" and the exchange cards have before the bonus. The dealer alternates the cards on each box in turn. In case of a second exchange, only one card can be exchanged. To this end, the player makes a bet equal to the original bet on the main box and the exchanged card has before the bonus. The dealer exchanges the card and makes all three bets on \"ANTE\"."
+                    "body": "The dealer offers the player to \"cut off\" the deck with a special plastic card. The player places his initial bet on the bonus position, after which the dealer alternately hands out each player and himself 5 cards face down. After the player has looked at his cards, he is given the opportunity to make the first exchange of one to five cards. To do this, he makes a bet equal to the original, in the position \"ANTE\" and the exchange cards have before the bonus. The dealer alternates the cards on each box in turn. In case of a second exchange, only one card can be exchanged. To this end, the player makes a bet equal to the original bet on the main box and the exchanged card has before the bonus. The dealer exchanges the card and makes all three bets on \"ANTE\".",
+                    "src": "/static/media/draw-poker.2bfe8acf.jpg"
                 },
                 {
                     "header":"Stud Poker",
-                    "body": "Before the start of the game, each player makes a bet equal to the initial bet \"Ante\", which is set by the casino. All dealer bets are collected by the dealer in the bank. The dealer mixes cards, cuts and hands over cards. The dealer gives out alternately from left to right, beginning with the player occupying the nearest to the dealer box: on the first closed card; on the second closed card, on the third open card. A player with a minimum open 3rd card (with equal minimum cards for two or more players, the minimum card recognized first) is required to make the initial forcing bet \"Force bet\", either equal to \"Ante\" or the installed casino."
+                    "body": "Before the start of the game, each player makes a bet equal to the initial bet \"Ante\", which is set by the casino. All dealer bets are collected by the dealer in the bank. The dealer mixes cards, cuts and hands over cards. The dealer gives out alternately from left to right, beginning with the player occupying the nearest to the dealer box: on the first closed card; on the second closed card, on the third open card. A player with a minimum open 3rd card (with equal minimum cards for two or more players, the minimum card recognized first) is required to make the initial forcing bet \"Force bet\", either equal to \"Ante\" or the installed casino.",
+                    "src":"/static/media/7card.e2303e94.jpg"
                 },
                 {
                     "header":"Texas Hold'em",
-                    "body": "The most popular form of poker today is a game with two pocket cards and five common cards used by all players when composing combinations."
+                    "body": "The most popular form of poker today is a game with two pocket cards and five common cards used by all players when composing combinations.",
+                    "src":"/static/media/holdem.b7f80278.jpg"
                 },
                 {
                     "header":"Baccarat",
-                    "body": "A card game in which players tend to score as many points as possible using two or three cards. Previously, baccarat was considered a game of aristocrats, and now in this game are often high stakes. In the original baccarat, the players played with each other, and each of them made a decision whether to take a third card or not. Currently, the casino basically plays a variant of the game known as mini-baccarat or punto-banko, in which the player plays against the institution (dealer), and the decision to take the card is strictly regulated."
+                    "body": "A card game in which players tend to score as many points as possible using two or three cards. Previously, baccarat was considered a game of aristocrats, and now in this game are often high stakes. In the original baccarat, the players played with each other, and each of them made a decision whether to take a third card or not. Currently, the casino basically plays a variant of the game known as mini-baccarat or punto-banko, in which the player plays against the institution (dealer), and the decision to take the card is strictly regulated.",
+                    "src":"/static/media/bakara.bb51a9ce.jpg"
                 }]
             },
             "faq":{
@@ -167,17 +177,20 @@
                 "slides": [{
                     "title": "Лучшие джанкет туры для вас.",
                     "caption": "Туры в различные страны Беларуси, Молдовы, России, Болгарии, Армении.",
-                    "buttonCaption": "Узнай сейчас"
+                    "buttonCaption": "Узнай сейчас",
+                    "src": "/static/media/banner1.e74b3c5e.jpg"
                 },
                 {
                     "title": "Используй збережения с умом.",
                     "caption": "Зачем тратить на перелеты и гостиницы, если лучше потратить на отдых.",
-                    "buttonCaption": "Попробуй"
+                    "buttonCaption": "Попробуй",
+                    "src": "/static/media/banner2.4c6df333.jpg"
                 },
                 {
                     "title": "Проводи время правильно.",
                     "caption": "Выберай где отдыхать, и проводить время с пользой.",
-                    "buttonCaption": "Выбери тут"
+                    "buttonCaption": "Выбери тут",
+                    "src": "/static/media/banner3.56500557.jpg"
                 }]
             },
             "collage":{

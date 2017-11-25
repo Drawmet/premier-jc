@@ -1,19 +1,11 @@
-import action_types from '../actions/actionsTypes';
-import api from '../data/api';
+import { combineReducers } from 'redux';
 
-const initialState = {
-  content: api.getContent() // Loads default language content (en) as an initial state
-};
+import language from './language';
+import authentification from './authentification';
 
-let reducer = function (state = initialState, action) {
-  switch (action.type) {
-    case action_types.SWITCH_LANGUAGE:
-      return {
-        content: api.getContent(action.language)
-      };
-    default:
-      return state;
-  }
-};
+const reducer = combineReducers({
+    content: language,
+    user: authentification
+})
 
 export default reducer;

@@ -9,7 +9,6 @@
     z-index:10;
 }
 
-.banner-section button .main-button{
-  float:center;
-  margin-top: 10px;
+.banner-section .img-fluid{
+  width: 100%;
 }

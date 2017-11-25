@@ -6,10 +6,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 import App from './containers/App';
-import content from './reducers/reducer';
+import reducer from './reducers/reducer';
 
-let store = createStore(content);
-
+let store = createStore(reducer);
 
 
 render(

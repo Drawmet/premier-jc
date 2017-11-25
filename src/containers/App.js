@@ -8,18 +8,30 @@ import Games from '../components/Games';
 import Faq from '../components/Faq';
 import {connect} from 'react-redux';
 import actions from '../actions/actions';
+import User from '../components/User';
 
 
 class App extends Component {
   render() {
     
-    const content = this.props.content;
+    const content = this.props.content.content;
+    console.log(this.props);
+    const getAuthentification = this.props.getAuthentification;
     const switchLanguage = this.props.switchLanguage;
+    const user = this.props.user;
+
+    const userBlock = () => {
+      if (user){
+      return (
+        <User data={user}/>
+      );
+    }}
 
     if(content){
       return (
         <div className="App">
-          <Navbar color="dark" dark={true} light={true} data={content.page.menu} switchLanguage={switchLanguage}/>
+          <Navbar color="dark" dark={true} light={true} data={content.page.menu}
+          getAuthentification={getAuthentification} switchLanguage={switchLanguage}/>
           <CarouselBanner data={content.page.carousel}/>
           <Collage data={content.page.collage}/>
           <Poll data={content.page.poll}/>
@@ -27,11 +39,12 @@ class App extends Component {
           <Faq data={content.page.faq}/>
         </div>
       );
-    } else { return; }
+    } else { return <div></div> }
   }
 }
 
 export default connect(
-  (state) => ({content: state.content}),
-  (dispatch) => ({switchLanguage: (lang) => dispatch(actions.switchLanguage(lang))})
+  (state) => ({content: state.content, user: state.user}),
+  (dispatch) => ({switchLanguage: (lang) => dispatch(actions.switchLanguage(lang)),
+                  getAuthentification: (user) => dispatch(actions.getAuthentification(user))}),
 )(App);;

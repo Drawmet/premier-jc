@@ -14,7 +14,7 @@ export default class Games extends Component{
     
     render(){
         const data = this.props.data;
-        const games = data.items.map((item,index, array) => {
+        const games = data.items.map((item, index, array) => {
             if(index%2===1)
                     return  (
                         <Row>
